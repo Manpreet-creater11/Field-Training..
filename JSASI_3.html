@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Test</title>
+    <style>
+        #image1{
+            display: block;
+            margin: auto;
+            width: 35%;
+        }
+        #img{
+            margin-top: auto;
+            padding-left: 35px;
+        }
+        .bgclr{
+            height: 500px;
+            background-color: bisque;
+            border-radius: 0cm;
+        }
+    </style>
+</head>
+<body>
+    <div class="bgclr">
+    <div id="image1"><img src="./both 5.jpg" id="img" onmouseover="fun1()" onmouseout="fun6()" height="200px" alt="image1"  ></div>
+    <br>
+    <br>
+    <img src="./baby girl 1.jpg" id="img" onmouseover="fun2()" onmouseout="fun6()" height="200px" alt="image2">
+    <img src="./baby girl 2.jpg" id="img" onmouseover="fun3()" onmouseout="fun6()" height="200px" alt="image3">
+    <img src="./baby boy 4.jpg" id="img" onmouseover="fun4()" onmouseout="fun6()" height="200px" alt="image4">
+    <img src="./baby boy 3.jpg" id="img" onmouseover="fun5()" onmouseout="fun6()" height="200px" alt="image5">
+</div>
+
+
+  <script>
+    function fun1(){
+        document.getElementById("img").src="./both 5.jpg"
+    }
+    function fun2(){
+        document.getElementById("img").src="./baby girl 1.jpg"
+    }
+    function fun3(){
+        document.getElementById("img").src="./baby girl 2.jpg"
+    }
+    function fun4(){
+        document.getElementById("img").src="./baby boy 4.jpg"
+    }
+    function fun5(){
+        document.getElementById("img").src="./baby boy 3.jpg"
+    }
+    function fun6(){
+        document.getElementById("img").src="./both 5.jpg"
+    }
+  </script>
+</body>
+</html>
